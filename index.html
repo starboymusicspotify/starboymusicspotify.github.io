@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starboy Official</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff4b2b;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .bio p {
+      line-height: 1.6;
+      text-align: center;
+    }
+    .music iframe {
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact input, .contact textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    .contact button {
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background: #ff416c;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .contact button:hover {
+      background: #ff4b2b;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Starboy</h1>
+    <p>Rising Star in the Indie Music Scene</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#bio">About</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Bio Section -->
+  <section id="bio" class="bio">
+    <h2>About Starboy</h2>
+    <p>
+      Starboy is an innovative indie artist known for blending soulful melodies with modern electronic beats. Born in 1998, Starboy started making music in their bedroom studio at the age of 16. Inspired by artists like Frank Ocean and The Weeknd, Starboy’s music is emotional, atmospheric, and resonates deeply with fans worldwide.
+    </p>
+  </section>
+
+  <!-- Music Section -->
+  <section id="music" class="music">
+    <h2>Popular Track: Caro</h2>
+    <p>"Caro" has captured fans with its heartfelt lyrics and smooth production, becoming Starboy's breakout hit.</p>
+    <!-- Spotify Embed -->
+    <iframe src="https://open.spotify.com/embed/track/1iWMyvsI1ppnMo8vVEYh6j?utm_source=generator" width="100%" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Starboy</h2>
+    <form action="mailto:zypherx3d@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Starboy. All rights reserved.
+  </footer>
+
+</body>
+</html>
